@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,700&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #222222;
+    width: 100%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block; 
+}
+.menu li a{
+    padding: 15px 10px 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #BB43E6;
+    transition: 0.3s;
+}
+section{
+    background-color: black;
+    height: 91vh;
+    position: relative; 
+}
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: ;
+    transform: translate(-50% -50%);
+}
+.conteudo h1{
+    color: #BF14FF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2em;
+}
+.conteudop{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+}
