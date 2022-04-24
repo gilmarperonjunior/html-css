@@ -11,8 +11,18 @@
 .menu{
     background-color: #222222;
     width: 100%;
+    position: relative;
+}
+.logo{
+    display: inline-block;
+}
+img{
+    width: 160px;
+    position: absolute;
+    top: 15px;
 }
 .menu ul{
+    text-align: right;
     list-style-type: none;
 }
 .menu ul li{
