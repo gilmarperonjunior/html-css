@@ -80,9 +80,15 @@ section{
     color: white;
     text-decoration: none;
 }
-#extra{
+.section02{
+    padding-top: 60px;
     background-color: white;
-    color: white;
+    margin: auto;
 }
-
+.quem-somos{
+    text-align: center;
+}
+.quem-somos h2{
+    
+}
 
