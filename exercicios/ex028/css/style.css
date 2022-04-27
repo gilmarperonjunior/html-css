@@ -34,7 +34,7 @@ img{
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .menu li a:hover{
@@ -43,23 +43,52 @@ img{
 }
 section{
     background-color: black;
-    height: 91vh;
+    height: 700px;
     position: relative; 
 }
 .conteudo{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
     position: absolute;
-    top: 50%;
+    top: 18%;
     left: ;
     transform: translate(-50% -50%);
 }
 .conteudo h1{
+    font-size: 3em;
     color: #BF14FF;
-    font-family: 'Poppins', sans-serif;
     line-height: 2em;
 }
 .conteudop{
+    font-size: 1.5em;
     color: white;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     line-height: 2em;
 }
+.botao{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px;
+    transform: translate(-50% 0%);
+    position: absolute;
+    display: inline-block;
+    background-color: #D609FF;
+    font-weight: bold;
+}
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+.section02{
+    padding-top: 60px;
+    background-color: white;
+    margin: auto;
+}
+.quem-somos{
+    text-align: center;
+}
+.quem-somos h2{
+    
+}
+
