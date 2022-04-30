@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 .menu{
     background-color: #222222;
@@ -33,7 +36,6 @@ img{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -41,23 +43,27 @@ img{
     color: #BB43E6;
     transition: 0.3s;
 }
-section{
+section#parte1{
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.418);
     background-color: black;
+    background-image: url("imagens/img01.jpg");
     height: 700px;
     position: relative; 
+    background-size: cover;
+    background-attachment: fixed;
 }
-.conteudo{
-    font-family: 'Poppins', sans-serif;
+.conteudo-parte1{
     padding-left: 10px;
     position: absolute;
     top: 18%;
     left: ;
     transform: translate(-50% -50%);
 }
-.conteudo h1{
+.conteudo-parte1 h1{
     font-size: 3em;
     color: #BF14FF;
-    line-height: 2em;
+    line-height: 1.5em;
+    background-image: linear-gradient(to bottom), #BF14FF, #A31EFF;
 }
 .conteudop{
     font-size: 1.5em;
@@ -80,15 +86,38 @@ section{
     color: white;
     text-decoration: none;
 }
-.section02{
-    padding-top: 60px;
-    background-color: white;
-    margin: auto;
-}
-.quem-somos{
+section#parte2{
+    width: 90%;
     text-align: center;
+    height: 400px;
+    padding: 50px 0px 50px 90px;
 }
-.quem-somos h2{
-    
+section#parte2 h2{
+    font-size: 2.3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 900;
+}
+section#parte2 p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: black;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.container{
+    display: flex;
+    width: 75%;
+    height: 500px;
+}
+.items{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+    margin-right: 20px;
+    font-size: 16px;
+    flex-wrap: nowrap;
+    height: 200px;
+    border-radius: 20px;
 }
 
