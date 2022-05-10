@@ -23,7 +23,7 @@ img{
 }
 .menu ul{
     text-align: right;
-    list-style-type: none;
+    list-style-type: none;  
 }
 .menu ul li{
     display: inline-block; 
@@ -42,6 +42,7 @@ img{
     transition: 0.3s;
 }
 section{
+    background-image: url("imagens/img01.jpg");
     background-color: black;
     height: 700px;
     position: relative; 
@@ -80,15 +81,6 @@ section{
     color: white;
     text-decoration: none;
 }
-.section02{
-    padding-top: 60px;
-    background-color: white;
-    margin: auto;
-}
-.quem-somos{
-    text-align: center;
-}
-.quem-somos h2{
-    
-}
+
+
 
