@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+:root{
+    --fontepoopins: 'Poppins', sans-serif;
+    --fonteroboto: 'Roboto', sans-serif;
+    
+    --clr-1:#F28A2E;
+    --clr-2:#0F3CA6;
+    --clr-3:#44280F;
+    --clr-4: #0bf96a;
+    --clr-5: #e10bf9;
+}
+
+/*Estilos Gerais
+<=========================>*/
+body{
+    font-family: var(--fonteroboto);
+    background-color: white;
+}
+a, a:hover, a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.divisor{
+    border: none;
+    width: 140px;
+    height: 2px;
+    background-color: var(--clr-5);
+    margin: 20px auto;
+}
+/*Menu
+<=========================>*/
+.menu-bg{
+    background-color: var(--clr-4);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.413);
+}
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.menu__lista{
+    list-style-type: none;
+    display: flex;
+}
+.menu__link{
+    padding: 10px;
+    margin-right: 8px;
+}
+.menu__link:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+}
+/*Estilos Gerais
+<=========================>*/
+
+/*Estilos Gerais
+<=========================>*/
+
+/*Estilos Gerais
+<=========================>*/
+
+/*Estilos Gerais
+<=========================>*/

@@ -1,41 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .container{
-            height: 600px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-end; /* Alinhamento Horizontal */
-            align-items: flex-start; /*Alinhamentos Verticais */
-        }
-        .child{
-            border: 1px solid black;
-            width: 20%;
-            height: 200px;
-            background-color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Sobre Flex Box</title>
 </head>
 <body>
-
-    <div class="container">
-
-        <div class="child">ITEM 1</div>
-        <div class="child">ITEM 2</div>
+    <div id="container">
         
-
-    </div><!--Container-->
-
+    </div><!--container-->
 </body>
 </html>
